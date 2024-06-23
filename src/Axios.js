@@ -18,7 +18,7 @@ const Axios = () => {
   return (
     <>
         <h1>Jokes</h1>
-        <button clasonClick={fetchData}>Click here for Jokes</button>
+        <button onClick={fetchData}>Click here for Jokes</button>
         <p>{joke}</p>
     </>
   )
