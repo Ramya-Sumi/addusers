@@ -1,10 +1,11 @@
-import Adduser from './Adduser';
+
 import './App.css';
+import Axios from './Axios';
 
 function App() {
   return (
     <div className="App">
-      <Adduser />           
+      <Axios />           
     </div>
   );
 }
